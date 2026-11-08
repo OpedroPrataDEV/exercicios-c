@@ -1,0 +1,22 @@
+# Executáveis e binários compilados
+*.exe
+*.out
+a.out
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+
+# Símbolos de depuração
+*.dSYM/
+*.pdb
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
