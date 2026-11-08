@@ -10,6 +10,7 @@ Os enunciados vêm da lista de exercícios do curso **Programação com a Lingua
 
 - `Exercícios de Lógica/`: Seção 2 do curso (introdução à linguagem C), arquivos `Ex02.c` a `Ex08.c`.
 - `Estruturas de Decisão/`: Seção 3 do curso (estruturas de decisão e seleção), arquivos `Ex01.c` a `Ex13.c`.
+- `Estruturas de Repetição/`: Seção 4 do curso (estruturas de repetição), arquivos `Ex01.c` a `Ex20.c` (em andamento).
 
 Os arquivos seguem a numeração dos exercícios da lista. Novas pastas serão criadas conforme eu avançar nas seções.
 
