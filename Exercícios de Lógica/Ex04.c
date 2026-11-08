@@ -6,7 +6,7 @@ int main(void){
     float total;
     float divisao;
     printf("Valor da consumacao: R$");
-    scanf("%d",&consumo);
+    scanf("%f",&consumo);
     printf("Quantidade de pessoas: ");
     scanf("%d",&quantidade);
     total=consumo*gorjeta;
