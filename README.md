@@ -8,31 +8,19 @@ Os enunciados vêm da lista de exercícios do curso **Programação com a Lingua
 
 ## Estrutura
 
-A numeração das pastas segue as seções da lista.
+- `Exercícios de Lógica/`: exercícios da Seção 2 do curso (introdução à linguagem C), arquivos `Ex02.c` a `Ex08.c`, que seguem a numeração da lista.
 
-| Pasta | Tema | Exercícios |
-|-------|------|-----------:|
-| `02-introducao/` | Introdução à linguagem C | 8 |
-| `03-decisao-e-selecao/` | Estruturas de decisão e seleção | 13 |
-| `04-repeticao/` | Estruturas de repetição | 25 |
-| `05-vetores/` | Vetores | 7 |
-| `06-matrizes/` | Matrizes | 10 |
-| `07-strings/` | Strings | 7 |
-| `08-funcoes/` | Funções e procedimentos | 7 |
-| `09-recursao/` | Recursão | 8 |
-| `10-structs/` | Structs | 1 |
-
-Total: 86 exercícios.
+Novas pastas serão criadas conforme eu avançar nas seções.
 
 ## Convenções
 
-- Um arquivo por exercício, com o número e um nome descritivo: `ex03_media_notas.c`.
-- Um commit por exercício, com a pasta e o tema na mensagem: `matrizes: ex02 - soma da diagonal principal`.
+- Um arquivo por exercício, com o número do exercício no nome.
+- Um commit por exercício, com o tema e o número na mensagem.
 - Executáveis compilados não são versionados (veja o `.gitignore`).
 
 ## Como compilar e executar
 
 ```bash
-gcc -Wall -o ex01 ex01_nome.c
-./ex01
+gcc -Wall -o ex02 Ex02.c
+./ex02
 ```
