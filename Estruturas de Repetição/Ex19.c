@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main(void){
     long long unsigned num=1;
-    for(int i=1;i<=63;i++){
+    long long unsigned total=0;
+    for(int i=1;i<=64;i++){
+        total=total+num;
         num=num*2;
     }
-    printf("Resultado: %llu",num);
+    printf("Resultado: %llu",total);
     return 0;
 }
