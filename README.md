@@ -8,9 +8,10 @@ Os enunciados vêm da lista de exercícios do curso **Programação com a Lingua
 
 ## Estrutura
 
-- `Exercícios de Lógica/`: exercícios da Seção 2 do curso (introdução à linguagem C), arquivos `Ex02.c` a `Ex08.c`, que seguem a numeração da lista.
+- `Exercícios de Lógica/`: Seção 2 do curso (introdução à linguagem C), arquivos `Ex02.c` a `Ex08.c`.
+- `Estruturas de Decisão/`: Seção 3 do curso (estruturas de decisão e seleção), arquivos `Ex01.c` a `Ex13.c`.
 
-Novas pastas serão criadas conforme eu avançar nas seções.
+Os arquivos seguem a numeração dos exercícios da lista. Novas pastas serão criadas conforme eu avançar nas seções.
 
 ## Convenções
 
@@ -21,6 +22,6 @@ Novas pastas serão criadas conforme eu avançar nas seções.
 ## Como compilar e executar
 
 ```bash
-gcc -Wall -o ex02 Ex02.c
-./ex02
+gcc -Wall -o ex01 Ex01.c
+./ex01
 ```
