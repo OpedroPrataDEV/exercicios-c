@@ -7,26 +7,18 @@ int main(void){
     scanf("%d",&y);
     printf("Terceiro Valor: ");
     scanf("%d",&z);
-    if((x==y)&&(y==z)){
-        menor=x;
-        maior=x;
-    }
-    else if((x>y)&&(x>z)){
-        maior=x;
-    }
-    else if((z>x)&&(z>y)){
-        maior=z;
-    }
-    else if((y>z)&&(y>x)){
+    maior=x;
+    menor=x;
+    if(y>maior){
         maior=y;
     }
-    if((x<z)&&(x<y)){
-        menor=x;
+    if(z>maior){
+        maior=z;
     }
-    else if((y<z)&&(y<x)){
+    if(y<menor){
         menor=y;
     }
-    else if((z<x)&&(z<y)){
+    if(z<menor){
         menor=z;
     }
     printf("Maior = %d\tMenor = %d",maior,menor);
