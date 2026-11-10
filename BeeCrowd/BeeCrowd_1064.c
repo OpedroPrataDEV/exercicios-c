@@ -7,7 +7,6 @@ int main(void){
     float media;
     
     for(int i=1;i<=6;i++){
-        printf("Informe um numero: ");
         scanf("%f",&num);
         if(num>0){
             cont+=1;
@@ -15,8 +14,8 @@ int main(void){
         }
     }
     media=total/cont;
-    printf("%d Valores positivos\n",cont);
-    printf("Media: %.1f",media);
+    printf("%d valores positivos\n",cont);
+    printf("Media: %.1f\n",media);
     return 0;
     
 }
