@@ -9,7 +9,7 @@ int main(void) {
 
     scanf("Dia %d", &dia0);
     scanf("%d : %d : %d", &hora0, &minutos0, &segundos0);
-    scanf("Dia %d", &dia1);
+    scanf(" Dia %d", &dia1);
     scanf("%d : %d : %d", &hora1, &minutos1, &segundos1);
 
     segundototal0 = (dia0 * 86400) + (hora0 * 3600) + (minutos0 * 60) + segundos0;
